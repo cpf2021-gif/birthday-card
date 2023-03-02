@@ -183,31 +183,3 @@ footer {
   color: #888;
   text-align: center;
 }
-
-@media (max-width: 400px) {
-  .wrap {
-    padding: 0.5em 0.5em;
-    height: 80%;
-  }
-
-  h1 {
-    font-size: 20px;
-    text-align: left;
-  }
-  #card {
-    margin: 0 10px;
-    height: 100%;
-  }
-
-  #card-inside {
-    font-size: 10px;
-    line-height: 1.2;
-    font-family: 'Nobile';
-    color: #331717;
-    font-style: italic;
-  }
-  body {
-    background: #E5E5E5;
-    padding: 1px;
-  }
-}
