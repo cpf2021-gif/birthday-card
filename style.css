@@ -5,6 +5,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
 body {
   background: #E5E5E5;
   padding: 50px;
@@ -15,7 +16,7 @@ body {
 }
 
 #card, #card-front, #card-inside {
-  height: 480px;
+  height: 650px;
 }
 
 .wrap {
@@ -81,7 +82,7 @@ p:first-child {
 }
 
 p.signed {
-    margin-top: 1.5em;
+    margin-top: 1.2em;
     text-align: center;
     font-family: 'Dancing Script', sans-serif;
     font-size: 1.5em;
