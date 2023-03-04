@@ -82,10 +82,22 @@ p:first-child {
 }
 
 p.signed {
-    margin-top: 1.2em;
+    margin-top: 1em;
     text-align: center;
     font-family: 'Dancing Script', sans-serif;
     font-size: 1.5em;
+}
+
+p.signed-1 {
+  text-align: left;
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 1.5em;
+}
+
+p.signed-2 {
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 #card-front {
