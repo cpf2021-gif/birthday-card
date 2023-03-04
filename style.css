@@ -33,13 +33,13 @@ body {
   left: 50%;
 }
 
-
 #card-inside .wrap {
     background: #FFEFEF;
     -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
 }
+
 #card {
     max-width: 960px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ body {
 
 #card-inside {
     font-size: 1.1em;
-    line-height: 1.4;
+    line-height: 1.3;
     font-family: 'Nobile';
     color: #331717;
     font-style: italic;
@@ -82,7 +82,7 @@ p:first-child {
 }
 
 p.signed {
-    margin-top: 1em;
+    margin-top: 0.8em;
     text-align: center;
     font-family: 'Dancing Script', sans-serif;
     font-size: 1.5em;
