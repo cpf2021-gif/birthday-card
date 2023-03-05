@@ -4,6 +4,10 @@ import './style.css'
     return document.getElementById(id);
   }
 
+  var isPlay = false;
+
+  var audio = $('bjmusic');
+
   var card = $('card'),
       openB = $('open'),
       closeB = $('close'),
@@ -11,6 +15,11 @@ import './style.css'
   console.log('wat', card);
   openB.addEventListener('click', function () {
     card.setAttribute('class', 'open-half');
+    console.log(audio)
+    if (!isPlay) {
+      audio.play();
+      isPlay = true;
+    }
     if (timer) clearTimeout(timer);
     timer = setTimeout(function () {
       card.setAttribute('class', 'open-fully');
